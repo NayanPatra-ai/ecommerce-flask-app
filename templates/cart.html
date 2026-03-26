@@ -1,0 +1,18 @@
+<h2>Your Cart</h2>
+
+{% if cart %}
+    {% for item in cart %}
+        <p>
+            {{ item.name }} - ₹{{ item.price }}
+            <a href="/remove/{{ loop.index0 }}">Remove</a>
+        </p>
+    {% endfor %}
+    
+    <br>
+    <a href="/checkout">Checkout</a>
+{% else %}
+    <p>Cart is empty</p>
+{% endif %}
+
+<br><br>
+<a href="/">Back to Home</a>
