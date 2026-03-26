@@ -70,7 +70,7 @@ ecommerce-flask-app/
 
 I’m currently learning and building in public 🚀  
 Let’s connect on LinkedIn!
-- 💼 LinkedIn: (linkedin.com/in/nayan-patra)
+- 💼 LinkedIn: linkedin.com/in/nayan-patra
 
 ---
 
